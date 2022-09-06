@@ -1,0 +1,10 @@
+option(
+  'refcnt_check',
+  type : 'boolean',
+  value :'false'
+  )
+option(
+  'refcnt_trace',
+  type : 'boolean',
+  value :'false'
+  )
