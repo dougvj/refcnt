@@ -37,6 +37,7 @@
  *    without specific prior written permission.
  *****************************************************************************/
 #ifndef _REFCNT_H_
+#define _REFCNT_H_
 #include <assert.h>
 #include <stdatomic.h>
 #include <stdlib.h>
