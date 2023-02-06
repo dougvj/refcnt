@@ -14,6 +14,8 @@ if get_option('refcnt_check')
 endif
 
 
+inc_dirs = include_directories('./')
+
 install_headers(files('./refcnt.h'))
 
 test = executable(
